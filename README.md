@@ -1,4 +1,4 @@
-Programs to perform comparison between Json and Google Protobuf for serialization and deserialization witwh respect to time and rates of serialization/deserialization (samples attached). 
+Programs to perform comparison between Json and Google Protobuf for serialization and deserialization with respect to time and rates of serialization/deserialization (samples attached). 
 
 *Input Record Format*: <Name>,<Roll No>:<Course1>,<Marks1>:<Course2>,<Marks2>:...:<CourseN>,<MarksN> 
 	
