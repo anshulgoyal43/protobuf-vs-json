@@ -13,7 +13,6 @@ for record in data:
   list_record = record.split(":")
   dict_record = {}
   dict_record["Name"] = list_record[0].split(",")[0]
-  dict_record["Roll No."] = list_record[0].split(",")[1]
   list_marks = []
   for i in range(1,len(list_record)):
     dict_marks = {}
@@ -26,6 +25,7 @@ for record in data:
     dict_marks["CourseScore"] = course_marks
     list_marks.append(dict_marks)
   dict_record["CourseMarks"] = list_marks
+  dict_record["Roll No."] = list_record[0].split(",")[1]
   final_list.append(dict_record)
 
 with open(sys.argv[2], 'w') as outfile:
