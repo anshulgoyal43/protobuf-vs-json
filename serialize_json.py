@@ -33,5 +33,4 @@ with open(sys.argv[2], 'w') as outfile:
     json.dump(final_list, outfile, separators=(',', ':'),ensure_ascii=False)
     end = time.clock()
 
-if "TIME" in os.environ: #??
-  print "Serialization time", end - start
+print "Serialization time", end - start
