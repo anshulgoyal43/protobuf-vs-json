@@ -8,16 +8,18 @@ Dhruva, 201301151:cs210,20:cs155,47
 
 Json format:
 [{\
-"Name": "Bhavesh", "CourseMarks": [{\
-"CourseScore": 85, "CourseName": "cs125"\
-}, {\
-"CourseScore": 94, "CourseName": "cs210"\
-}],\
-"RollNo": 165\
-}, {\
-"Name": "Dhruva", "CourseMarks": [{\
-"CourseScore": 20, "CourseName": "cs125"\
-}, {"CourseScore": 37, "CourseName": "cs210"\
-}],\
-"RollNo": 169\
-} ]\
+        "Name":"Bhavesh","CourseMarks":[{\
+                "CourseScore":85,"CourseName":"cs125"\
+             },{\
+                "CourseScore":94,"CourseName":"cs210"\
+             }],\
+        "RollNo":165\
+},{\
+       \newline
+        "Name":"Dhruva","CourseMarks":[{\
+                "CourseScore":20,"CourseName":"cs125"\
+             },{\
+                "CourseScore":37,"CourseName":"cs210"\
+             }],\
+        "RollNo":169\
+}]\
