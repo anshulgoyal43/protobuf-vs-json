@@ -15,7 +15,7 @@ Json format:
              }],\
         "RollNo":165\
 },{\
-       \newline
+       \
         "Name":"Dhruva","CourseMarks":[{\
                 "CourseScore":20,"CourseName":"cs125"\
              },{\
