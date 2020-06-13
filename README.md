@@ -6,6 +6,8 @@ Input Record Format:```<Name>,<RollNo>:<Course1>,<Marks1>:<Course2>,<Marks2>:...
 Bhavesh,201301116:cs210,85:cs155,94  
 Dhruva, 201301151:cs210,20:cs155,47 
 
+An illustration for the input records above is as shown:
+
 ```json
 [{
         "Name":"Bhavesh","CourseMarks":[{
